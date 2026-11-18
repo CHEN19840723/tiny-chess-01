@@ -1,0 +1,23 @@
+depth 1 score 737 nodes 66
+depth 2 score 687 nodes 705
+depth 3 score 432 nodes 1234
+depth 4 score 712 nodes 6694
+depth 5 score 592 nodes 18004
+depth 6 score 649 nodes 77052
+depth 7 score 595 nodes 194262
+depth 1 score 98 nodes 2066
+depth 2 score 98 nodes 4000
+depth 3 score 48 nodes 4565
+depth 4 score 48 nodes 10861
+depth 5 score 10 nodes 32370
+depth 6 score 10 nodes 52034
+depth 7 score 13 nodes 107496
+depth 1 score 90 nodes 118
+depth 2 score 90 nodes 658
+depth 3 score 70 nodes 1906
+depth 4 score 70 nodes 10647
+depth 5 score 40 nodes 25919
+depth 6 score 55 nodes 58684
+depth 7 score 10 nodes 143518
+depth 8 score 15 nodes 213038
+[{"fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQKBNR w KQkq - 4 4", "nodes": 226304, "seconds": 7.51392459500039, "nps": 30118}, {"fen": "r3k2r/p1ppqpb1/bn2pnp1/3PN3/1p2P3/2N2Q1p/PPPBBPPP/R3K2R w KQkq - 0 1", "nodes": 160768, "seconds": 7.516604329000074, "nps": 21388}, {"fen": "2rq1rk1/pp1bppbp/2np1np1/8/2BNP3/2N1BP2/PPPQ2PP/2KR3R w - - 0 1", "nodes": 237568, "seconds": 7.508684137999808, "nps": 31639}]
