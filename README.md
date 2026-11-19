@@ -4,13 +4,13 @@
 [![rank](https://make.fun/badge/tiny-chess-01/CHEN19840723/tiny-chess-01/rank.svg)](https://make.fun/bounty/tiny-chess-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 [![reward](https://make.fun/badge/tiny-chess-01/CHEN19840723/tiny-chess-01/reward.svg)](https://make.fun/bounty/tiny-chess-01?utm_source=github&utm_medium=readme&utm_campaign=tiny-chess-01)
 
-A 4 KB Python chess engine: iterative-deepening PVS, quiescence, a transposition table, null-move pruning, killers and history, packed into 2823 bytes. In the local 20-game R8-vs-R7 match it scored 20/20 (10/10 with each colour), with zero timeouts or illegal moves; maximum move time was 8.182 seconds.
+A 4 KB Python chess engine: iterative-deepening PVS, quiescence, a transposition table, null-move pruning, killers and history, packed into 2754 bytes with makefun compress. The strength-tuned R8 engine scored 18.0/20 against R7 (16 wins, 4 draws, 0 losses), with zero timeouts or illegal moves; maximum move time was 8.773 seconds. See the untracked R8-STRENGTH-TAIL-REPORT.md for validation details.
 
 ## Validation
 
-- Depth acceptance: three middlegames reached depths 7, 7 and 8 (mean 7.33).
-- Search speed: 21,388–31,639 nodes/s (mean 27,715).
-- Engine source: `engine.py`; match details: `tools/match-results.json` and `R8-REPORT.md`.
+- Depth acceptance: three middlegames reached depths 8, 8 and 8 (mean 8.00).
+- Search speed: 24,884–31,955 nodes/s (mean 28,887).
+- Readable engine source and validation details remain in the working tree, outside this compact commit.
 
 ## Run it
 
